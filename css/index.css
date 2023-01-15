@@ -1,0 +1,381 @@
+/* 主体main模块 开始 */
+.main .main-left {
+    float: left;
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+}
+.main .main-left ul li  {
+    height: 31px;
+    line-height: 30px;
+    margin-left: 1px;
+}
+.main .main-left ul li a {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+}
+.main .main-left ul li a::after {
+    float: right;
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-right: 5px;
+    color: #fff;
+}
+.main .main-left ul li a:hover {
+    margin-left: 1px;
+    background-color: #fff;
+    color: #c81623;
+}
+/*  main中间焦点图 */
+.main-middle {
+    position: relative;
+    float: left;
+    margin: 10px 0 0 10px;
+    width: 720px;
+    height: 455px;
+    
+}
+.main-middle img {
+    width: 100%;
+    height: 100%;
+}
+/* end */
+/* main 主体模块 右边 */
+.main-right {
+    float: left;
+    margin: 10px 0 0 10px;
+    width: 250px;
+    height: 455px;
+    border: 2px solid #e4e4e4;
+    
+}
+.main-right dt {
+    padding-left: 15px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dotted #333;
+    font-size: 14px;
+
+    color: #333333;
+    
+}
+.main-right dt>span {
+    float: right;
+    color: #666666;
+}
+.main-right dt>span::after {
+    margin-right: 5px;
+    font-family: 'icomoon';
+    content: '\e920'; 
+    
+}
+.main-right span {
+    font-weight: 700;
+}
+.main-right dd {
+    margin: 10px 0 0 15px;
+    /* height: 25px; */
+    font-size: 12px;
+    color: #666666;
+}
+.main-right div {
+    width: 250px;
+    height: 283px;
+    margin-left: -1px;
+    background-color: pink;
+}
+.main-right div img {
+    width: 100%;
+    height: 100%;
+}
+.btn-left {
+    position: absolute;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    top: 50%;
+    left: 0;
+}
+.btn-right {
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    top: 50%;
+    right: 0;
+    padding-left: 8px;
+}
+.btn-style {
+    width: 20px;
+    height: 30px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-top: -15px;
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+}
+.xiaoyuandian {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, .3);
+}
+.xiaoyuandian ul li {
+    float: left;
+    margin:8px 0 0 20px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+}
+.xiaoyuandian ul li:first-child {
+    background-color: orange;
+}
+/* main 主体模块 end */
+.recom {
+    margin-top: 10px;
+    height: 160px;
+    background-color: #ebebeb;
+}
+.recom .recom_hd {
+    width: 200px;
+}
+.recom .recom_hd img{
+    width: 100%;
+    height: 160px;
+}
+.recom_bd ul li {
+    position: relative;
+    float: left;
+    width: 248px;
+    height: 160px;
+    overflow: hidden;
+}
+/*  图片大小写死 */
+.recom_bd ul li img {
+    width: 248px;
+    
+}
+.recom_bd ul li:nth-child(-n+3):after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    bottom: 10px;
+    content: '';
+    width: 1px;
+    height: 143px;
+    background-color: #dddddd;
+}
+
+/* 猜你喜欢模块 开始 */
+.Related-top {
+    margin-top: 30px;
+    height: 25px;
+    line-height: 25px;
+}
+.Related-top div {
+    font-size: 18px;
+    color: #333333;
+}
+.Related-top div span {
+    margin-right: 10px;
+    font-size: 12px;
+    float: right;
+}
+.Related-body {
+    margin-top: 10px;
+    height: 230px;
+    border: 1px solid #666666;
+}
+.Related-body ul {
+    width: 1200px;
+}
+.Related-body ul li {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 230px;
+    text-align: center;
+    padding-top: 20px;
+}
+.Related-body ul li div {
+    widows: 150px;
+    height: 135px;
+    line-height: 135px;
+}
+
+.Related-body ul li p {
+    position: absolute;
+    text-align: left;
+    left: 30px;
+    top: 162px;
+    font-size: 12px;
+    color: #666;
+}
+.Related-body ul li i {
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    font-size: 14px;
+    color: #df3033;
+}
+.Related-body ul li span {
+    position: absolute;
+    left: 40px;
+    top: 195px;
+    font-size: 18px;
+    color: #df3033;
+}
+.Related-body ul li:nth-child(-n+6):after{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    content: '';
+    width: 1px;
+    height: 60px;
+    background-color: #ededed;
+}
+.Related-body ul li:nth-of-type(1):after {
+    width: 0;
+    height: 0;
+    background-color: 0;
+}
+/* 猜你喜欢结束 */
+/* 家用电器模块*/
+.floor {
+    margin-top: 30px;
+}
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-size: 400;
+}
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+.tab-list ul li {
+    float: left;
+}
+.tab-list ul li a {
+    margin: 0 15px;
+}
+/* 家用电器模块end */
+.floor .w {
+    margin-top: 30px;
+}
+.box-bd {
+    height: 360px;
+}
+.tab_last_item>div {
+    float: left;
+    height: 360px;
+}
+.tab_last_item {
+    width: 1250px;
+}
+.div-210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    
+    text-align: center;
+}
+.div-210 img {
+    margin-top: 10px;
+}
+.div-210 ul {
+    padding-left: 12px;
+}
+.div-210 ul li {
+    float: left;
+    width: 85px;
+    height: 35px;
+    border-bottom: 1px solid #000;
+    line-height: 35px;
+    margin-right: 10px;
+    text-align: center;
+}
+.div-330 {
+    position: relative;
+    width: 330px;
+}
+.div-330 .btn {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    width: 60px;
+    height: 20px;
+    margin-left: -25px;
+}
+.div-330 .btn ul li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 5px 5px 0 5px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.div-330 .btn ul li:first-child {
+    background-color: #fff;
+}
+.div-220 {
+    width: 221px;
+    border-right: 1px solid #cccc;
+    text-align: center;
+    
+}
+.div-220 img {
+    margin-top: 15px;
+}
+.tab_last_item div:nth-of-type(5) {
+    border-right: 0;
+}
+.bb {
+    border-bottom: 1px solid #ccc;
+}
+.brand {
+    height: 65px;
+}
+.floor_btn {
+    position: fixed;
+    width: 65px;
+    top: 350px;
+    left: 90px;
+}
+.floor_btn ul li{
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ededed;
+    font-size: 12px;
+}
+.floor_btn ul li a {
+    display: block;
+}
+.floor_btn ul li:first-child a {
+    background-color: #c81623;
+    color: #fff;
+}
+/* 秒杀 */
+.sk {
+    position: absolute;
+    top: 43px;
+    left: 185px;
+    border-left: 1px solid #b1191a;
+    padding-left: 14px;
+}
+.Related-body div img {
+    transition: all 0.5s;
+}
+.Related-body div img:hover {
+    transform: translate(0,-5px);
+}

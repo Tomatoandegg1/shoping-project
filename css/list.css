@@ -1,0 +1,56 @@
+    /* .nav {
+        overflow: hidden;
+    } */
+.sk {
+    position: absolute;
+    top: 43px;
+    left: 185px;
+    border-left: 1px solid #b1191a;
+    padding-left: 14px;
+}
+.dropdown ul li {
+    float: left;
+    line-height: 47px;
+    margin-right: 50px;
+    
+} 
+.dropdown ul li a {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+} 
+
+.navitems ul li a {
+    display: block;
+}
+.navitems ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.zhuti {
+    margin-top: 20px;
+}
+.zhuti ul li {
+    overflow: hidden;
+    float: left;
+    width: 288px;
+    height: 458px;
+    border: 1px solid transparent;
+} 
+.zhuti ul li:hover {
+    border: 1px solid red;
+}
+.miaodian {
+    position: fixed;
+    top: 500px;
+    right: 100px;
+}
+.miaodian ul li {
+    width: 68px;
+    height: 68px;
+}
+#top {
+    transition: all 0.5  ;
+}
+

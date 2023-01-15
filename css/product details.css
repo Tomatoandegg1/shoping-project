@@ -1,0 +1,407 @@
+/* 给大盒子设置上外边距 20 像素和上面hader有个距离 */
+.de_container {
+    margin-top: 20px;
+}
+.crumb_wrap {
+    height: 25px;
+}
+.crumb_wrap a {
+    margin-right: 10px;
+}
+/* 左侧预览产品的区域 */
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+    text-align: center;
+    
+}
+/* 下面图片的盒子，margin-top顶上去 和父亲一样宽 */
+.preview_list {
+    position: relative;
+    height: 60px;
+    margin-top: 60px;
+}
+/* 盒子里面的ul设置高和宽，然后居中 */
+.list_item {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+    
+}
+/* ul 里面的一个个小li设置大小 然后给他们设置边框 */
+.list_item li {
+    overflow: hidden;
+    float: left;
+    width: 56px;
+    height: 56px;
+    border: 2px solid transparent;
+    margin: 0 2px;
+}
+.list_item li:hover {
+    cursor: all-scroll;
+    border-color: #c81623;
+}
+/* 两个左右箭头图标，给他们加定位添加到这个ul盒子里面就可以 */
+.arrow_prev,
+.arrow_next {
+    /* 子绝父相 给父亲list定位相对定位，因为父亲只有一个 60的高度 然后用外边距顶下来了，所以父亲就是一个400宽 高60的盒子  */
+    position: absolute;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+}
+/* 给两个盒子添加图片 不平铺就可以了 */
+.arrow_prev {
+    left: 0;
+    background: url(../images/arrow-prev.png) no-repeat;
+}
+.arrow_next {
+    right: 0;
+    background: url(../images/arrow-next.png) no-repeat;
+}
+/* 产品介绍模块 左侧结束 */
+
+
+.itemInfo_wrap {
+    width: 718px;
+}
+.sku_name {
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.news {
+    height: 32px;
+    color: #e12228;
+}
+.summary dl {
+    overflow: hidden;
+}
+.summary dt,
+.summary dd {
+    float: left;
+    margin-top: px;
+}
+ .summary dt {
+    /* height: 60px; */
+    padding: 10px 0 0 10px;
+    font-weight: 700;
+} 
+.summary dd {
+    padding: 0px 0 0 13px;
+    line-height: 30px;
+}  
+.summary_price ,
+.summary_promotion {
+    position: relative;
+    padding: 10px 0;
+    background-color: #fee9eb;
+}
+
+.remark {
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.money_inco{
+    font-size: 16px;
+    color: #e12228;
+}
+.summary_price i {
+     font-size: 24px;
+     color: #e12228;
+    }
+.remark a {
+     font-size: 12px;
+     color: blue;
+}
+.summary_promotion dd {
+    font-size: 12px;
+    color: #999999;
+}
+.summary_promotion em {
+    padding: 5px 0;
+    font-size: 12px;
+    color: #fff;
+    background-color: #c81623;
+}
+.summary_price a {
+    color: #e12228;
+}
+
+.summary_support dd {
+    
+    line-height: 36px;
+}
+.choose_color a {
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 41px;
+}
+/* 鼠标滑过以后添加红色边框 */
+.choose_color a:hover.current
+,.choose_version a:hover.current
+,.choose_type a:hover.current
+,.suit a:hover.current {
+    border-color: #c81623 ;
+}
+.choose_version  {
+    margin: 10px 0;
+}
+.choose_version a,
+.choose_type a {
+    display: inline-block;
+    height: 32px;
+    padding: 0 12px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 32px;
+}
+.suit {
+    margin: 10px 0;
+}
+.suit a {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    padding: 0 12px;
+}
+.shuipingxian {
+    margin-top: 15px;
+    width: 315px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+}
+.shuliang {
+    float: left;
+    margin: 0 0 0 10px;
+    width: 50px;
+    height: 46px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 46px
+}
+.shuliang div {
+    float: right;
+}
+.shuliang  button {
+    display: block;
+    
+    width: 15px;
+    height: 22px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.gouwuche {
+    display: inline-block;
+    margin-left: 10px;
+    width: 142px;
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background-color: #c81623;
+}
+.shuliang-gouwuche {
+    margin-top:40px ;
+}
+/*  */
+.aside {
+    /* overflow: hidden; */
+    width: 208px;
+    border: 1px solid #ccc;
+}
+.tab_list {
+    overflow: hidden;
+    height: 34px;
+}
+.tab_list ul {
+    display: flex;
+}
+.tab_list li {
+    float: left;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+}
+.tab_list .current {
+    background-color: #fff;
+    border-bottom: 0;
+    color: red;
+}
+.first_tab {
+    width: 104px;
+}
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+
+.tab_con {
+    /* 如果我孩子里面的宽度超过了我父亲的宽度 我父亲设置的边框就会抵消没有，所以如果不想让孩子里面的内容缩小 又想又边框就要给父亲加ovflow：hidden */
+    padding: 0 10px;
+}
+.tab_con li {
+    border-bottom: 1px solid #ccc;
+}
+.tab_con li h5 {
+    /*超出的文字省略号显示*/
+    /* 不换行 */
+    white-space: nowrap;
+    /* 如果超出了一行就隐藏,用省略号代替 */
+    overflow: hidden;
+    /* 省略号 */
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+/* 给价格添加样式 */
+.aside_price {
+    font-weight: 700;
+}
+.as_addcar {
+    display: block;
+    width: 88px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    margin: 10px auto;
+}
+/* 给右边盒子一个宽 不给高度 */
+.detail {
+    margin-left: 10px;
+    width: 978px;
+}
+.mcs {
+    position: relative;
+    height: 359px;
+    border: 1px solid #ccc;
+}
+.mcs .tuijian {
+    height: 39px;
+    line-height: 39px;
+    background-color: #f1f1f1;
+}
+.tuijian ul li {
+    background-color: #c81623;
+    width: 83px;
+    padding: 0 10px;
+}
+.tuijian ul li a {
+    color: #fff;
+}
+.mpsp {
+    width: 800px;
+    height: 319px;
+    border-right: 3px solid #f1f1f1;
+}
+.mpsp ul li {
+    float: left;
+    padding: 10px 20px;
+}
+.mpsp-content {
+    width: 850px;
+    padding: 0 30px;
+    
+}
+.mpsp-content div {
+    float: left;
+    text-align: center;
+    width: 170px;
+    height: 225px;
+    /* background-color: pink; */
+}
+.mpsp-content div:nth-of-type(1) {
+    position: relative;
+    padding-left: 10px;
+}
+.mpsp-content div i {
+    font-size: 14px;
+    color: #e12228;
+}
+.mpsp-content div:nth-of-type(1) span {
+    position: absolute;
+    font-size: 24px;
+    top: 80px;
+    right: -20px;
+}
+.mpsp-content div img {
+    width: 100%;
+}
+.mpsp-content input[type=checkbox] {
+    zoom: 110%;
+}
+.detail_tab_list {
+    margin-top: 20px;
+    height: 39px;
+    line-height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.detail_tab_list ul li {
+    float: left;
+    padding: 0 18px;
+}
+/* 第一个li的样式 */
+.detail_tab_list ul li:first-child {
+    background-color: #c81623;
+}
+.detail_tab_list .current {
+    color:#fff;
+}
+.detail_tab_con ul li {
+    font-size: 12px;
+    padding: 5px 15px;
+}
+.detail_tab_con {
+    border-bottom: 2px solid #ccc;
+}
+.detail img {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    width: 987px;
+}
+
+.set-meal {
+    position: absolute;
+    padding: 0 10px;
+    right: 10px;
+    top: 50%;
+    margin-top: -110px;
+    width:  150px;
+    height: 230px;
+    
+}
+.set-meal p {
+    padding: 20px 0;
+}
+.set-meal strong {
+    font-size: 12px;
+}
+.set-meal i {
+    font-size: 24px;
+    color: #e12228;
+}
+.set-meal span {
+    font-size: 16px;
+}
+.set-meal button {
+    width: 100px;
+    height: 45px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #e12228;
+    margin: 40px 10px;
+}
